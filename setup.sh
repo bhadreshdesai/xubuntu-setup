@@ -58,6 +58,7 @@ install_sdk() {
 
 setup() {
     sudo apt update
+    install_brave
     install_git
     install_docker
     install_kind

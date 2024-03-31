@@ -23,6 +23,10 @@ install_docker() {
     sudo apt install docker-compose -y
 }
 
+install_firefox() {
+    sudo apt install firefox -y
+}
+
 install_git() {
     sudo apt install git -y
 }
@@ -59,6 +63,7 @@ install_sdk() {
 setup() {
     sudo apt update
     install_brave
+    install_firefox
     install_git
     install_docker
     install_kind
